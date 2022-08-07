@@ -3,17 +3,22 @@
 .eltunes{
     /*float:left;*/
     /*max-width: 100%; */
-    /* margin-right: 0px; */
-
+    /*margin-right: 150px; */
     max-height: 100%;
-    position: absolute;
+    float: right;
+    
+    /*height: 10%;*/
+    /*margin-left: auto;
+    margin-right: auto;*/
 
-    top: 0;
-    /*left: -100000px;*/ 
     /*left: -35%;*/
-    float:right;
-    /*animation: mymove 4s 1;*/
-    /*position: fixed;*/
+    
+    position: absolute;
+    /*left: -100000px;*/ 
+    position: fixed;
+    animation-name: mymove;
+    animation-duration: 5s;  
+    animation-fill-mode: forwards;
 }
 
 @keyframes mymove {
@@ -21,10 +26,12 @@
     /*100% {left: -2000px;}*/
     /*100% {opacity:  0;}*/
 
-    /*0%   {left: -30%;}*/
-    /*100% {left: -200%;}*/
+    
+    0%   {left: -35%;}
+    100% {left: -200%;}
     
 }
 body {
-    background-color: gray;
+    background-color: red;
 }
+
